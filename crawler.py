@@ -52,7 +52,7 @@ for page in range(0, 11):
                     i = img.find('img')['src']
                     okimg = i[0:-36] #去除webp副檔名
                     print(i) #打印圖片連結
-                    urllib.request.urlretrieve(okimg, '/Users/hachibye/Downloads/Spyder_practice-master/photo/' + 'p' + c + okimg[-4:])
+                    urllib.request.urlretrieve(okimg, '/Users/hachibye/photo/' + 'p' + c + okimg[-4:])
                     count += 1 #開頭的檔名計數
                     
                     
